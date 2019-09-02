@@ -15,6 +15,9 @@ import com.challenge.creditsuisse.entities.EventDetails;
 import com.challenge.creditsuisse.enums.State;
 
 /**
+ * 
+ * Processes an Event. Calculates the duration of the event, flag an event and returns an EventDeatails entity.
+ * 
  * @author evelynvieira
  */
 @Component

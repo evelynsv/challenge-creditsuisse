@@ -9,6 +9,9 @@ import org.springframework.batch.item.file.mapping.JsonLineMapper;
 import com.challenge.creditsuisse.canonical.Event;
 
 /**
+ * 
+ * Maps Json of the file
+ * 
  * @author evelynvieira
  */
 public class WrappedJsonLineMapper implements LineMapper<Event> {

@@ -11,6 +11,8 @@ import com.challenge.creditsuisse.canonical.Event;
 import com.challenge.creditsuisse.entities.EventDetails;
 /**
  * 
+ * Receives an Event object, call a business class and return an EventDetails entity.
+ * 
  * @author evelynvieira
  *
  */

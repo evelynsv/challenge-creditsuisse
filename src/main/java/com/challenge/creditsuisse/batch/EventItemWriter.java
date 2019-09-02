@@ -13,6 +13,9 @@ import com.challenge.creditsuisse.entities.EventDetails;
 import com.challenge.creditsuisse.repositories.EventDetailsRepository;
 
 /**
+ * 
+ * Saves the information on database.
+ * 
  * @author evelynvieira
  */
 @Component
@@ -21,13 +24,13 @@ public class EventItemWriter implements ItemWriter<EventDetails> {
 	private static final Logger LOGGER = LoggerFactory.getLogger(EventItemWriter.class);
 
 	@Autowired
-	private EventDetailsRepository eventRepository;
+	private EventDetailsRepository eventDetailsRepository;
 
 	@Override
 	public void write(final List<? extends EventDetails> items) throws Exception {
 		LOGGER.info("write(eventDetails={})", items);
 
-		eventRepository.saveAll(items);
+		eventDetailsRepository.saveAll(items);
 
 	}
 

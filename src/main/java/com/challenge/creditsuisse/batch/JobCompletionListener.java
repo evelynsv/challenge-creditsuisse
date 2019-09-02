@@ -11,6 +11,8 @@ import org.springframework.stereotype.Component;
 import com.challenge.creditsuisse.business.EventBusiness;
 /**
  * 
+ * Listens the job execution.
+ * 
  * @author evelynvieira
  *
  */

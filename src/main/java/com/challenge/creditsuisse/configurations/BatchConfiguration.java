@@ -31,6 +31,9 @@ import com.challenge.creditsuisse.canonical.Event;
 import com.challenge.creditsuisse.entities.EventDetails;
 
 /**
+ * 
+ * Batch configuration and EventItemReader implementation.
+ * 
  * @author evelynvieira
  */
 @Configuration

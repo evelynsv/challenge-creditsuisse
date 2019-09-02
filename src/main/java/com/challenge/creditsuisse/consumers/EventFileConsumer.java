@@ -23,6 +23,8 @@ import com.challenge.creditsuisse.exceptions.JobExecutionErrorException;
 import com.challenge.creditsuisse.helpers.EventJobParametersBuilderHelper;
 /**
  * 
+ * The Watch Service monitor the path and start the job in case there is update in the file.
+ * 
  * @author evelynvieira
  *
  */
