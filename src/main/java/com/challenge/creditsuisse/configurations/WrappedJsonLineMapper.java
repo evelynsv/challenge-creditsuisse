@@ -3,8 +3,6 @@ package com.challenge.creditsuisse.configurations;
 
 import java.util.Map;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.batch.item.file.LineMapper;
 import org.springframework.batch.item.file.mapping.JsonLineMapper;
 
@@ -14,8 +12,6 @@ import com.challenge.creditsuisse.canonical.Event;
  * @author evelynvieira
  */
 public class WrappedJsonLineMapper implements LineMapper<Event> {
-
-	private static final Logger LOGGER = LoggerFactory.getLogger(WrappedJsonLineMapper.class);
 
 	public static final String ID = "id";
 	public static final String STATE = "state";

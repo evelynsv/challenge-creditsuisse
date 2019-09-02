@@ -9,7 +9,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.challenge.creditsuisse.business.EventBusiness;
 import com.challenge.creditsuisse.canonical.Event;
 import com.challenge.creditsuisse.entities.EventDetails;
-
+/**
+ * 
+ * @author evelynvieira
+ *
+ */
 public class EventItemProcessor implements ItemProcessor<Event, EventDetails> {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(EventItemProcessor.class);

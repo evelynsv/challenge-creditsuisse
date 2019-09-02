@@ -21,7 +21,11 @@ import org.springframework.stereotype.Component;
 
 import com.challenge.creditsuisse.exceptions.JobExecutionErrorException;
 import com.challenge.creditsuisse.helpers.EventJobParametersBuilderHelper;
-
+/**
+ * 
+ * @author evelynvieira
+ *
+ */
 @Component
 public class EventFileConsumer implements CommandLineRunner {
 

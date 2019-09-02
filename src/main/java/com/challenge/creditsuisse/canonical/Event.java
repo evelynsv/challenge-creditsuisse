@@ -2,7 +2,11 @@
 package com.challenge.creditsuisse.canonical;
 
 import java.io.Serializable;
-
+/**
+ * 
+ * @author evelynvieira
+ *
+ */
 public class Event implements Serializable {
 
 	private static final long serialVersionUID = 5219011790944374906L;

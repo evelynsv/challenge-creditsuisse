@@ -9,7 +9,11 @@ import org.springframework.batch.core.listener.JobExecutionListenerSupport;
 import org.springframework.stereotype.Component;
 
 import com.challenge.creditsuisse.business.EventBusiness;
-
+/**
+ * 
+ * @author evelynvieira
+ *
+ */
 @Component
 public class JobCompletionListener extends JobExecutionListenerSupport {
 

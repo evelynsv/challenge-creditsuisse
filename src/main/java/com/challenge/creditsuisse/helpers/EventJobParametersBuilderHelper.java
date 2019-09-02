@@ -5,7 +5,11 @@ import java.util.Date;
 
 import org.springframework.batch.core.JobParameters;
 import org.springframework.batch.core.JobParametersBuilder;
-
+/**
+ * 
+ * @author evelynvieira
+ *
+ */
 public class EventJobParametersBuilderHelper {
 
 	public static final String FILE_PATH = "filePath";

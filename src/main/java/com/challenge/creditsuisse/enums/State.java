@@ -2,7 +2,11 @@
 package com.challenge.creditsuisse.enums;
 
 import java.util.stream.Stream;
-
+/**
+ * 
+ * @author evelynvieira
+ *
+ */
 public enum State {
 
 	STARTED("STARTED"),
